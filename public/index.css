@@ -5,6 +5,8 @@
     font-family: 'Poppins', sans-serif;
   }
 
+/* This commented code will make the Nav content appear on the right side */
+
 /* header {
     display: flex;
     justify-content: flex-end;
@@ -52,7 +54,7 @@ form {
     margin: 1% 40% 0%;
     padding: 1%;
     border-radius: 25px;
-    color: white;
+    color: #ffffff;
     background-color: black;
 }
 
