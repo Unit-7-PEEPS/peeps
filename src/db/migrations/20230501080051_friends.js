@@ -8,7 +8,7 @@ exports.up = function(knex) {
         table.foreign('user_id').references('id').inTable('users');
         table.integer('friends_id').notNullable();
         table.foreign('friends_id').references('id').inTable('users');
-        table.timestamp('created_at', { useTz: true }).notNullable();
+        table.timestamps('created_at', { useTz: true }).notNullable();
     });
 };
 

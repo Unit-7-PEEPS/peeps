@@ -9,7 +9,7 @@ exports.up = function(knex) {
         table.foreign('user_id').references('id').inTable('users');
         table.integer('post_id').notNullable();
         table.foreign('post_id').references('id').inTable('posts');
-        table.timestamp('created_at', { useTz: true }).notNullable();
+        table.timestamps('created_at', { useTz: true }).notNullable();
         // table.timestamp('updated_at', { useTz: true }).notNullable();
     });
 };

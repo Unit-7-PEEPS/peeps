@@ -8,7 +8,8 @@ exports.up = function(knex) {
         table.string('name').notNullable();
         table.integer('creator_id').notNullable();
         table.foreign('creator_id').references('id').inTable('users');
-        table.timestamp('created_at', { useTz: true }).notNullable();
+        table.string('image').notNullable();
+        table.timestamps('created_at', { useTz: true }).notNullable();
         table.string('summary');
     })
 };
