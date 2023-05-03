@@ -11,7 +11,7 @@ exports.up = function(knex) {
         table.string('image').notNullable();
         table.timestamps('created_at', { useTz: true }).notNullable();
         table.string('summary');
-    })
+    })        
 };
 
 /**
