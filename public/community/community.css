@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* This commented code will make the Nav content appear on the right side */
+
+/* header {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 0% 45%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.sideNav {
+  margin: 0% 80% 0% 2%; 
+  padding: 2% 0% 20% 1%;
+  background-color: #fafafa;
+  border-radius: 25px;
+  box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0; /* Set the top position to 0 */
+}
+
+#search {
+  width: 200px; /* Adjust the width as desired */
+  height: 25px; /* Adjust the height as desired */
+  border-radius: 25px;
+  padding-left: 10px; /* Adjust the padding as desired */
+}
+
+  
+
+
+.peeps-text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  font-size: 1.2em; /* Increase font size */
+  font-weight: 600; 
+}
+
+
+.sideNav li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.peeps-footer .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.peeps-info {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.peeps-links {
+  list-style: none;
+  padding: 0;
+  margin: 5% 0%;
+  text-align: center;
+}
+
+.peeps-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.peeps-links li:first-child {
+  margin-left: 0;
+}
+
+.peeps-links a {
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+}
+
+.peeps-links a:hover {
+  color: #000;
+}
+
+
